@@ -1,0 +1,12 @@
+Following steps create a new table with current local time. 
+This is used after then as the report refreshment time (as the time where all the tables were refreshed)
+
+
+
+
+
+->Go to Power Query >New Source> Blank Quey:
+->Code: DateTime.LocalNow()
+->Rename New Table to :DIM_Data_Refresh_Table>
+->Click "to Table"
+
